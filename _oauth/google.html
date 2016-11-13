@@ -3,14 +3,9 @@
 <a href="/oauth2-redirect">Back ...</a>
 
 <script>
-
 	var loc = window.location;
-	console.log(loc);
-
+	// console.log(loc);
 	var redirectURL = 'http://meteor-test:3000' + loc.pathname + loc.search;
-
-	console.log(redirectURL);
-
+	// console.log(redirectURL);
 	window.location = redirectURL;
-
 </script>
